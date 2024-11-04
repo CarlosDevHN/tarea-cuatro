@@ -1,0 +1,222 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.card_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card_title {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.grid_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #555;
+    width: 180px;
+    height: 180px;
+}
+
+.item1 { background-color: #F4CE8C; }
+.item2 { background-color: #F4A8A5; }
+.item3 { background-color: #ADD8E6; }
+.item4 { background-color: #B2EBF2; }
+.item5 { background-color: #D1C4E9; }
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F4CE8C;
+    padding: 20px;
+}
+
+.row_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #333;
+    background-color: #ADD8E6;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.ritem1 {
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+}
+.ritem2 {
+    width: 120px;
+    height: 80px;
+    padding: 10px;
+}
+.ritem3 {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+}
+.ritem4 {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ADD8E6;
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+.column_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4CE8C;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.grid4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: space-between;
+    max-width: 900px;
+    height: 250px;
+    margin: auto;
+}
+
+.grid_item4 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #555;
+    width: 250px;
+    height: 50px;
+}
+
+.item4-1 { background-color: #e0e0e0; }
+.item4-2 { background-color: #e0e0e0; }
+.item4-3 { background-color: #e0e0e0; }
+.item4-4 { background-color: #e0e0e0; }
+.item4-5 { background-color: #e0e0e0; }
+
+.grid5 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    max-width: 900px;
+    height: 250px;
+    margin: auto;
+}
+
+.grid_item5 {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    font-size: 2rem;
+    color: #555;
+    width: 250px;
+    height: 50px;
+}
+
+.item5-1 { background-color: #e0e0e0; }
+.item5-2 { background-color: #e0e0e0; }
+.item5-3 { background-color: #e0e0e0; }
+.item5-4 { background-color: #e0e0e0; }
+.item5-5 { background-color: #e0e0e0; }
+
+.grid6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: flex-start;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+
+.grid_item6 {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    font-size: 2rem;
+    color: #555;
+    width: 150px;
+    height: 250px;
+}
+
+.item6-1 { background-color: #e0e0e0; }
+.item6-2 { background-color: #e0e0e0; }
+.item6-3 { background-color: #e0e0e0; }
+.item6-4 { background-color: #e0e0e0; }
+.item6-5 { background-color: #e0e0e0; }
+.item6-6 { background-color: #e0e0e0; }
+.item6-7 { background-color: #e0e0e0; }
+.item6-8 { background-color: #e0e0e0; }
+
+.product-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.product-info {
+    font-size: 12px;
+}
+
+.product-description {
+    font-size: 12px;
+}
+
+.product-price {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.product-button {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    background-color: #007BFF;
+    border-color: #007BFF;
+    border-radius: 5px;
+}
